@@ -7,7 +7,7 @@ document.getElementById("demoForm").addEventListener("submit", function (e) {
     const phone = document.getElementById("phone").value;
 
     // Send data to Google Sheets (replace with your webhook URL)
-    const webhookURL = "https://script.google.com/macros/s/AKfycbxbgnwtB_tX73EY6_9LMPVu1NtmH-hsYV_mhbpUP6o8rP-0j8gtM-GvUzxSmS0muG6bSw/exec";
+    const webhookURL = "https://script.google.com/macros/s/AKfycby4oaxC95P6Q57bQlBiLoLQ1l4bmX0abRuwEH56hCIGeyP3xdxCmecbsf26Z8F7M9xGMA/exec";
     fetch(webhookURL, {
         method: "POST",
         headers: {
